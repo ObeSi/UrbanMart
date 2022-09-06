@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+  <title>Products | Urban Mart</title>
+</head>
+
+<body>
+  <div class="container_1">
+    <div class="navbar">
+      <img src="img/logo.png" class="logo" draggable="false" href="index.html">
+      <nav>
+        <ul id="menuList">
+          <li id="item"><a href="index.html" id="show">HOME</a></li>
+          <li id="item"><a href="products.html" id="show1">PRODUCTS</a></li>
+          <li class="cart"><a href="cart.html" id="show2">CART<span>0</span></a></li>
+        </ul>
+      </nav>
+      <img src="img/menu.png" class="menu_icon" draggable="false" onclick="togglemenu()">
+    </div>
+  </div>
+
+  <div class="about-title">
+    <h1 class="section-title"><span class="span2">O</span>ur Products!</h1>
+  </div>
+
+
+  <section class="text-gray-600 body-font items">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full border">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="zoom"
+              src="https://www.bigbasket.com/media/uploads/p/xxl/281026-2_3-cadbury-dairy-milk-chocolate.jpg" href="">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY - CHOCOLATE</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Diary Milk</h2>
+            <p class="mt-1">₹20</p>
+            <a class="add-cart btn2">Add To Cart!</a>
+            <a href="product1.html" class="view btn2">View!</a>
+
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full border">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://www.rationatmydoor.com/wp-content/uploads/2019/02/5star-choco.jpeg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY - CHOCOLATE</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Five Star</h2>
+            <p class="mt-1">₹10</p>
+            <a class="add-cart btn2">Add To Cart!</a>
+            <a href="#" class="view btn2">View!</a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full border">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://www.bigbasket.com/media/uploads/p/l/60000655_9-coca-cola-soft-drink-original-taste.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY - SOFT DRINKS</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Coca Cola</h2>
+            <p class="mt-1">₹40</p>
+            <a class="add-cart btn2">Add To Cart!</a>
+            <a href="#" class="view btn2">View!</a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full border">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://www.jiomart.com/images/product/600x600/490004176/pepsi-2-l-product-images-o490004176-p490004176-0-202203170742.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY - SOFT DRINKS</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Pepsi</h2>
+            <p class="mt-1">₹80</p>
+            <a class="add-cart btn2">Add To Cart!</a>
+            <a href="#" class="view btn2">View!</a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full border">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://m.media-amazon.com/images/I/510yV9HftLL.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY - FAST FOOD</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Maggi</h2>
+            <p class="mt-1">₹15</p>
+            <a class="add-cart btn2">Add To Cart!</a>
+            <a href="#" class="view btn2">View!</a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full border">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://www.bigbasket.com/media/uploads/p/l/40202281_6-lays-potato-chips-american-style-cream-onion-flavour-best-quality-crunchy.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY - CHIPS</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">American Style & Cream Onion</h2>
+            <p class="mt-1">₹20</p>
+            <a class="add-cart btn2">Add To Cart!</a>
+            <a href="#" class="view btn2">View!</a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full border">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://www.lays.com/sites/lays.com/files/2020-11/Chedda-SC.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY - CHIPS</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Cheddar & Sour Cream</h2>
+            <p class="mt-1">₹10</p>
+            <a class="add-cart btn2">Add To Cart!</a>
+            <a href="#" class="view btn2">View!</a>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full border">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://www.bigbasket.com/media/uploads/p/l/40194010_1-vadilal-fun-ta-stick.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY - ICE CREAM</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Funtastic Ice Cream</h2>
+            <p class="mt-1">₹30</p>
+            <a class="add-cart btn2">Add To Cart!</a>
+            <a href="#" class="view btn2">View!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <h3>Urban Mart</h3>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright Urban Mart. All Rights Reserved</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
+
+<script src="add.js"></script>

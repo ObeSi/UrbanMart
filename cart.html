@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    
+    <title>My Website | Home</title>
+</head>
+<body>
+    <div class="container_1">
+        <div class="navbar">
+            <img src="img/logo.png" class="logo" draggable="false" href="index.html">
+            <nav>
+                <ul id="menuList">
+                    <li id="item"><a href="index.html" id="show">HOME</a></li>
+                    <li id="item"><a href="products.html" id="show1">PRODUCTS</a></li>
+                    <li class="cart"><a href="cart.html" id="show2">CART<span>0</span></a></li>
+                </ul>
+            </nav>
+            <img src="img/menu.png" class="menu_icon" draggable="false" onclick="togglemenu()">
+        </div>
+    </div>
+    <button class="btn2" onclick="clearcart()">Clear Cart!</button>
+
+    <!-- <div class="container">
+        <button class="cartclea" onclick="clearcart()">Clear Cart</button>
+    </div> -->
+    
+    
+    <div class="products-container">
+        <div class="product-header">
+            <h5 class="product-title">PRODUCT</h5>
+            <h5 class="price">PRICE</h5>
+            <h5 class="quantity">QUANTITY</h5>
+            <h5 class="total">TOTAL</h5>
+        </div>
+        
+        <div class="products">
+        </div>
+    </div>
+        
+    
+
+<script src="add.js"></script>
+
+    
+</body>
+</html>

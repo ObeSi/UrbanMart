@@ -1,0 +1,202 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background:#ff575a; 
+	border-radius: 1px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: crimson; 
+	filter: brightness(0.5);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.9;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 1px 19px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 123px;
+    transition: 0.3s ease;
+    transition-property: background-color, color;
+    align-self: center;
+    /* padding-right: 3px; */
+    cursor: pointer;
+    margin-left: 21px;
+}
+.btn2:hover {
+	color: white;
+	background-color: crimson;
+}
+
+.products-container {
+    min-height: 64vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -25%;
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+    z-index: 1000;
+}
+p {
+	color: black;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: 0.05rem;
+}
+.section-title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    transform: translateY(80px);
+}
+.section-title span {
+	color: crimson;
+}
+.cartclea {
+    display: inline-block;
+    padding: 1px 19px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 7px;
+    transition: 0.3s ease;
+    transition-property: background-color, color;
+    align-self: center;
+    /* padding-right: 3px; */
+    cursor: pointer;
+}
+
+.cartclea:hover{
+    color: white;
+	background-color: crimson;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+    position: fixed;
+    transition: 0.3s ease background-color;
+    background-color: #29323c;
+}
+.logo {
+    width: 27%;
+    /* height: 11%; */
+    padding-top: 11px;
+    padding-left: 7px;
+    cursor: pointer;
+    padding-top: 6px;
+    padding-right: 5px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+}
+
+
+.menu_icon{
+    width: 2%;
+    height: 5%;
+    visibility: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    align-items: left;
+    margin-left: 30%;
+    
+}
+nav ul{
+    display: flex;
+    text-align: left;
+    visibility: visible;
+}
+nav ul li{
+    display: flex;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    align-items: left;
+    padding: 0px 27px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+    float: left;
+    letter-spacing: 0.2rem;
+    transform: translateY(-1px);
+    margin-right: 19px;
+}
+nav ul li a span{
+    font-size: 1rem;
+    padding: 7px;
+}
+
+nav ul li a:hover{
+    color: #dc143c;
+}
+
+
+/* .products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+} */
+    
+.product-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+}
+.quantity{
+    padding: 2px 56px;
+}
+    
+.product-title {
+    width: 45%;
+}
+    
+.price {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+    
